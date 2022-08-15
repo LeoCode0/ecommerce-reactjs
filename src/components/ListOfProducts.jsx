@@ -2,10 +2,10 @@ import { Product } from "./Product";
 
 import "../styles/listOfProducts.css"
 
-export const ListOfProducts = ({ items }) => {
+export const ListOfProducts = ({ data }) => {
   return(
     <ul className="listOfProducts" >
-      {items.map(item => <Product {...item} key={item.id} />)}
+      {data.map(item => <Product {...item} key={item.id} />)}
     </ul>
   )
 }
