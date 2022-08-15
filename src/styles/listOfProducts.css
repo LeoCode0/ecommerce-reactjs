@@ -1,0 +1,9 @@
+.listOfProducts{
+  width: 40%;
+  margin: 20px auto;
+  max-height: 80vh;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  border: 1px solid gray;
+  border-radius: 20px;
+}

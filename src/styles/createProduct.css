@@ -1,0 +1,20 @@
+.product-form{
+  width: 50%;
+}
+
+.product-form input, .product-form textarea{
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.product-form textarea{
+  width: 100%;
+  max-width: 600px;
+  max-height: 100px;
+}
+
+.product-form button{
+  width: 30%;
+  margin: 10px;
+}

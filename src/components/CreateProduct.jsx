@@ -1,5 +1,7 @@
 import React from 'react'
 
+import "../styles/createProduct.css";
+
 export const CreateProduct = ({ currentItems, changeItems }) => {
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -19,7 +21,7 @@ export const CreateProduct = ({ currentItems, changeItems }) => {
   }
 
   return (
-    <form onSubmit={handleSubmit} >
+    <form onSubmit={handleSubmit} className="product-form" >
       <input type="text" name="id" placeholder='write an id' />
       <input type="text" placeholder='Name' name='name' />
       <input type="number" placeholder='Value' name='price' />
