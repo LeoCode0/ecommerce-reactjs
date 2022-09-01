@@ -1,3 +1,18 @@
-.App{
+.ProductsLists{
   display: flex;
+}
+
+.wishlist{
+  display: flex;
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.wishlist li{
+  min-width: 500px;
+}
+
+h1{
+  text-align: center;
+  margin: 20px 0;
 }
